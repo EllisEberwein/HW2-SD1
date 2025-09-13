@@ -43,10 +43,4 @@ public class Debug {
         } else {
             System.out.println("Not marist college :(!");
         }
-        // Or in a more simple way we can simply use the .equals which we found out about before
-        if ("Marist".equals("marist")){
-            System.out.println("Marist college!");
-        } else {
-            System.out.println("Not marist college :(!");
-        }
      }}
