@@ -13,12 +13,9 @@ public class Debug {
         }
 
         int var2 = 6;
-        if (var2 == 6){ // I fixed it so it can check if it is equal to 6, 
-        //then to 5, then greater than 5 and then less than 5. 
-        // the first check for 6 probably was unnecessary code, but I didn't want to remove it since it was in the original code.
-            System.out.println("Var2 is 6");
-        } else if (var2 == 5){
-        System.out.println("Var2 is 5");
+        if (var2 == 5){ // I fixed it removing the check if it is equal to 6, since that makes no sense, since the purpose is to check if its below or above 5 or is 5.
+            // I arranged it to check if it is 5, then if it is greater than 5, then the else is automatically checking if its below 5.
+            System.out.println("Var2 is 5");
         } else if (var2 > 5){
             System.out.println("Var2 is greater than 5");
         } else {
@@ -26,8 +23,10 @@ public class Debug {
         }
 
         int var3 = 5;
-        if (var3==10 ){ // Everything is good, just added a check so we dont run into any issues if 10 is input,
+        if (var3==10 ){ // Everything is good, just added a check for 10 and added an else if so we dont run into any issues if 10 is input.
             System.out.println("Var3 is 10");
+        } else if (var3 > 10){ // 
+            System.out.println("Var3 is greater than 10");
         } else {
             System.out.println("Var3 is less than 10");
         }
