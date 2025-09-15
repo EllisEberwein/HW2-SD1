@@ -49,4 +49,4 @@ public class HW2 {
     System.out.println("Your score is " + score + "!" ); 
     }
 }
-// I learned how to use if else statements to update variables and perform checks on strings.
+// I learned how to use if else statements to update variables and perform checks on strings. It's cool since this is the first time, we were tasked to make a small game.  
