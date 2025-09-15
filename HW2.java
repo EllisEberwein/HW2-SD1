@@ -49,3 +49,4 @@ public class HW2 {
     System.out.println("Your score is " + score + "!" ); 
     }
 }
+// I learned how to use if else statements to update variables and perform checks on strings.
