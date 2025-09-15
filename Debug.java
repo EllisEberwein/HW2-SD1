@@ -33,7 +33,7 @@ public class Debug {
 
 
         //for this section: why are we not entering the if statement?
-        // I added a string for marist, which accepts both capitalized and uncapitalized Marist
+        // I added a string for marist, and checks that accepts both capitalized and uncapitalized Marist
         String school = "Marist" ;
         if (school == "marist"){
             System.out.println("Marist college!");
